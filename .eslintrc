@@ -1,0 +1,46 @@
+{
+  "extends": ["airbnb", "airbnb/hooks"],
+  // TODO: figure out why this is necessary - it should
+  // be inherited from `eslint-oneflare-config` 🤔
+  "parser": "@babel/eslint-parser",
+  "settings": {
+    "import/resolver": {
+      "node": {
+        // Allow absolute file imports relative to src directory
+        "paths": [
+          "src"
+        ]
+      }
+    }
+  },
+  "rules": {
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/control-has-associated-label": "off",
+    "jsx-a11y/label-has-associated-control": [
+      "error",
+      {
+        "required": {
+          "some": [
+            "nesting",
+            "id"
+          ]
+        }
+      }
+    ],
+    "jsx-a11y/label-has-for": [
+      "error",
+      {
+        "required": {
+          "some": [
+            "nesting",
+            "id"
+          ]
+        }
+      }
+    ]
+  }
+}
