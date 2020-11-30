@@ -1,18 +1,40 @@
 /* eslint-disable max-len */
-  const Contact = () => {
-    const handleSubmit = ({ target }) => {
-      const arr = [...target].map(({ value }) => value);
+import { useState } from 'react';
+import * as emailjs from 'emailjs-com';
 
-      const message = `
-        Name: ${arr[0]},
-        Email: ${arr[1]},
-        Product: ${arr[2]},
-        Date: ${arr[3]},
-        Message: ${arr[4]},
-      `;
+const Contact = () => {
+  const [submitted, setSubmitted] = useState(false);
 
-      return message;
-    }
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const arr = [...e.target].map(({ value }) => value);
+
+    const message = `
+      Name: ${arr[0]} \n
+      Email: ${arr[1]} \n
+      Product: ${arr[2]} \n
+      Date: ${arr[3]} \n
+      Message: ${arr[4]}
+    `;
+
+    const templateParams = {
+      from_name: arr[1],
+      to_name: 'Nin',
+      subject: `${arr[0]}-${arr[2]}-${arr[3]}`,
+      message,
+    };
+
+    const { text } = await emailjs.send(
+      process.env.EMAIL_ID,
+      'template_6ughj89',
+      templateParams,
+      process.env.EMAIL_JS_USER_ID,
+    );
+
+    setSubmitted(text === 'OK');
+  };
+
   return (
     <section id="contact">
       <div className="social column">
@@ -27,7 +49,7 @@
 
       <div className="column">
         <h3>Get in Touch</h3>
-        <form action="#" method="post">
+        <form onSubmit={handleSubmit} action="" method="post">
           <div className="field half first">
             <label type="text" htmlFor="name">Name</label>
             <input name="name" id="name" type="text" placeholder="Name" />
@@ -38,8 +60,8 @@
           </div>
           <div className="field half first">
             <label type="text" htmlFor="product">What illustration type are you after?</label>
-            <select id="product-options" className="minimal" defaultValue="select an option">
-              <option disabled value="select on option">-- select an option --</option>
+            <select id="product-options" className="minimal">
+              <option disabled selected value="select on option">-- select an option --</option>
               <option value="live">Live event</option>
               <option value="watercolour">Watercolour</option>
               <option value="digital">Digital</option>
@@ -57,7 +79,15 @@
             <textarea name="message" id="message" rows="6" placeholder="Message" />
           </div>
           <ul className="actions">
-            <li><input value="Send Message" className="button" type="submit" /></li>
+            <li>
+              <input value="Send Message" className="button" type="submit" />
+              {submitted && (
+                <>
+                  <span id="check-span" className="icon fa-check-circle" />
+                  <span>Order submitted. Thank you!</span>
+                </>
+              )}
+            </li>
           </ul>
         </form>
       </div>

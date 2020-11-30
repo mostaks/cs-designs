@@ -505,6 +505,10 @@
 
 /* Form */
 
+  #check-span {
+		padding: 0 8px 0 16px;
+	}
+
 	form {
 		margin: 0 0 2em 0;
 	}
@@ -560,6 +564,7 @@
 		padding: 0 1em;
 		text-decoration: none;
 		width: 100%;
+		background: #fff;
 	}
 
 		input[type="text"]:invalid,
