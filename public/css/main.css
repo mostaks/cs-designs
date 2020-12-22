@@ -479,8 +479,8 @@
 
 				#contact .column {
 					padding: 2em 0 0.1em 0;
-					padding-left: 2em;
-					padding-right: 2em;
+					padding-left: 3em;
+					padding-right: 3em;
 				}
 
 			}
@@ -497,8 +497,8 @@
 
 				#contact .column {
 					padding: 1em 0 0.1em 0;
-					padding-left: 1em;
-					padding-right: 1em;
+					padding-left: 3em;
+					padding-right: 3em;
 				}
 
 			}
@@ -763,7 +763,7 @@
 	}
 
 	.gallery {
-		padding: 7.5em 3.5em 3.5em;
+		padding: 3.5em 3.5em 3.5em;
 		position: relative;
 		overflow: hidden;
 		min-height: 37em;
@@ -772,7 +772,7 @@
 		@media screen and (max-width: 980px) {
 
 			.gallery {
-				padding: 2em;
+				padding: 2em 3em;
 				min-height: 20em;
 			}
 
@@ -785,7 +785,7 @@
 		@media screen and (max-width: 480px) {
 
 			.gallery {
-				padding: 1em;
+				padding: 1em 3em;
 			}
 
 		}
@@ -1229,8 +1229,8 @@
 
 			section .inner, article .inner {
 				padding: 2em 0 0.1em 0;
-				padding-right: 2em;
-				padding-left: 2em;
+				padding-right: 3em;
+				padding-left: 3em;
 			}
 
 		}
@@ -1416,7 +1416,7 @@
 								-5px -5px 24px #ffffff;
 		z-index: 10002;
 		position: relative;
-		width: 4em;
+		/* width: 4em; */
 	}
 
 		#nav ul {
@@ -1436,17 +1436,17 @@
 			}
 
 				#nav ul li a {
-					color: #37373780;
+					color: black;
 					text-decoration: none;
 					font-size: 1.5em;
 				}
 
 					#nav ul li a:hover {
-						color: black;
+						color: #E5BBCB;
 					}
 
 					#nav ul li a.active {
-						color: black;
+						color: #E5BBCB;
 					}
 
 				@media screen and (max-width: 736px) {
@@ -1487,7 +1487,7 @@
 		min-height: 75vh;
 		height: 75vh;
 		position: relative;
-		background: #000;
+		background: #E5BBCB;
 		background-image: url(../../images/cover/cover_photo_2.jpg);
 		background-size: cover;
 		background-attachment: fixed;
@@ -1495,6 +1495,8 @@
 		background-position: center;
 		text-align: center;
 		color: #FFF;
+
+
 	}
 
 		#banner:before {
@@ -1508,7 +1510,7 @@
 			transition-delay: 0.25s;
 			content: '';
 			display: block;
-			background-color: #eee;
+			background-color: #fff;
 			height: 100%;
 			left: 0;
 			opacity: 0.45;
@@ -1531,7 +1533,7 @@
 			opacity: 0.8;
 			z-index: 3;
 			padding: 0 2em;
-			background: #E5BBCB;
+			background: transparent;
 			border-radius: 4px;
 			width: 100vw;
 		}
@@ -1587,20 +1589,19 @@
 	}
 
 		#main #header {
-			background: #e6e6e6;
-			padding: 1.15em 3.5em;
+			background: #fff;
+			padding: 1.15em 3em 0;
 			text-align: right;
+			font-family: AmalfiCoast;
+			text-align: left;
+			font-size: 1.9em;
+			color: #000;
 		}
-
-			#main #header h1 {
-				margin: 0;
-				font-size: 1em;
-			}
 
 			@media screen and (max-width: 980px) {
 
 				#main #header {
-					padding: 1.15em 2em;
+					padding: 1.15em 3em;
 				}
 
 			}
@@ -1608,7 +1609,7 @@
 			@media screen and (max-width: 736px) {
 
 				#main #header {
-					text-align: center;
+					text-align: left;
 				}
 
 			}

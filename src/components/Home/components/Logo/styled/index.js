@@ -38,8 +38,18 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const LogoStyled = styled.svg`
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
+
+  ${media.smUp`
+    width: 400px;
+    height: 400px;
+  `}
+
+  ${media.mdUp`
+    width: 400px;
+    height: 400px;
+  `}
 
   ${media.lgUp`
     width: 500px;

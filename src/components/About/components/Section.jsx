@@ -10,42 +10,58 @@ const Section = () => (
           <span className="image left special"><img src="images/event/thumbs/04.png" alt="" /></span>
           <h3>Live Events</h3>
           <p>
-            Adipiscing dis a mus a convallis condimentum molestie penatibus iaculis pulvinar vestibulum enim lacus suscipit mi dictumst hendrerit sit condimentum at rutrum vulputate vestibulum habitasse nam fusce a nascetur. Ut ullamcorper suspendisse malesuada tempus vestibulum commodo habitasse suspendisse magnis.
+            Enjoy the luxury of creating custom illustration of your guests live on the spot
+            as they mingle and sip champagne.
+            Live event illustration can be applied across a range of events, such as PR
+            and marketing campaigns, store openings, product launches, race days,
+            weddings and private parties.
           </p>
         </div>
         <div className="column">
-          <span className="image left special"><img src="images/cakes/thumbs/07.png" alt="" /></span>
+          <span className="image left special"><img src="images/cakes/thumbs/06.png" alt="" /></span>
           <h3>Cakes</h3>
           <p>
-            At sem phasellus elit className dapibus lectus posuere donec morbi in cras commodo faucibus ipsum vehicula fringilla. Risus hendrerit sit condimentum at rutrum vulputate fringilla dis curae metus ipsum imperdiet vulputate sapien dolorem ligula sapien curae consequat vestibulum urna. Nulla vulputate cum augue non arcu.
+            Enquire about our cake illustrations for the very best in unique and
+            custom, handmade pieces bespoke for every order.
           </p>
         </div>
         <div className="column">
           <span className="image left special"><img src="images/digital/thumbs/02.png" alt="" /></span>
           <h3>Digital</h3>
           <p>
-            Adipiscing dis a mus a convallis condimentum molestie penatibus iaculis pulvinar vestibulum enim lacus suscipit mi dictumst hendrerit sit condimentum at rutrum vulputate vestibulum habitasse nam fusce a nascetur. Ut ullamcorper suspendisse malesuada tempus vestibulum commodo habitasse suspendisse magnis.
+            Order a timeless digitally drawn custom illustration. We will turn your idea or portrait into
+            a piece of art you can display in your own home or gift to a special person. Illustrations are
+            drawn using an iPad + Procreate. We will email the final illustration to your preferred email.
+            We then print your illustration on high quality paper, package professionally and ship to the
+            address provided upon purchase.
           </p>
         </div>
         <div className="column">
           <span className="image left special"><img src="images/watercolour/thumbs/01.png" alt="" /></span>
           <h3>Watercolor</h3>
           <p>
-            At sem phasellus elit className dapibus lectus posuere donec morbi in cras commodo faucibus ipsum vehicula fringilla. Risus hendrerit sit condimentum at rutrum vulputate fringilla dis curae metus ipsum imperdiet vulputate sapien dolorem ligula sapien curae consequat vestibulum urna. Nulla vulputate cum augue non arcu.
+            Watercolor pieces are hand drawn by yours truly. I use the highest quality paints to turn your ideas
+            into a piece of art. We will email the final illustration to your preferred email.
+            We then package professionally and ship to the address provided upon purchase.
           </p>
         </div>
         <div className="column">
           <span className="image left special"><img src="images/event/thumbs/02.png" alt="" /></span>
           <h3>Event stationary</h3>
           <p>
-            At sem phasellus elit className dapibus lectus posuere donec morbi in cras commodo faucibus ipsum vehicula fringilla. Risus hendrerit sit condimentum at rutrum vulputate fringilla dis curae metus ipsum imperdiet vulputate sapien dolorem ligula sapien curae consequat vestibulum urna. Nulla vulputate cum augue non arcu.
+            Event stationery can be an extension of your personalised style. Our goal is to produce creative
+            stationary designs that exhibit your special event in a way that reflects your personality. We do all
+            types of events from weddings, to birthdays, baby showers to corporate events. We will work with you to
+            design custom stationery that reflects your spirit, style and personality.
           </p>
         </div>
         <div className="column">
           <span className="image left special"><img src="images/announcement/thumbs/04.png" alt="" /></span>
           <h3>Announcement cards</h3>
           <p>
-            At sem phasellus elit className dapibus lectus posuere donec morbi in cras commodo faucibus ipsum vehicula fringilla. Risus hendrerit sit condimentum at rutrum vulputate fringilla dis curae metus ipsum imperdiet vulputate sapien dolorem ligula sapien curae consequat vestibulum urna. Nulla vulputate cum augue non arcu.
+            Whether you’ve welcomed a new baby to the world are due to be wed or your birthdays coming up, spread your
+            happy news with personalised announcement cards. We create illustrated designs and photo cards – all of which
+            is completely personalised by you.
           </p>
         </div>
       </section>
