@@ -13,6 +13,7 @@ const Meta = () => (
     <script src="js/skel.min.js" />
     <script src="js/util.js" />
     <script src="js/main.js" />
+    <link rel="shortcut icon" type="image/jpg" href="LOGO.png" />
     <title>Christina Stamos Designs</title>
   </Head>
 );
