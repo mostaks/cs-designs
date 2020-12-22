@@ -11,9 +11,15 @@ const Nav = () => {
       <ul>
         {routes.map(({ route, icon }) => (
           <li key={route}>
-            <Link href={route}>
-              <a className={isActive(route)}><span className={`icon fa-${icon}`} /></a>
-            </Link>
+            {route === '/gallery' ? (
+              <a href={route} className={isActive(route)}><span className={`icon fa-${icon}`} /></a>
+            ) : (
+              <>
+                <Link href={route}>
+                  <a className={isActive(route)}><span className={`icon fa-${icon}`} /></a>
+                </Link>
+              </>
+            )}
           </li>
         ))}
       </ul>
