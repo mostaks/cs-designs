@@ -39,7 +39,7 @@ const Contact = () => {
     <section id="contact">
       <div className="social column">
         <h3>Contact Me</h3>
-        <p>Enquire about a custom illustration by filling out the below! Each piece created by Christina is one-of-a-kind and requires a custom quote based on specific requirements. We’ll be in touch with you within 24-48 hours! Yes we create custom commissioned pieces! All works can be ordered in a variety of sizes, and created in a style to suit you. For all custom design inquiries, please contact today!</p>
+        <p>Enquire about a custom illustration by filling out the form! Each piece created by Christina is one-of-a-kind and requires a custom quote based on specific requirements. We’ll be in touch with you within 24-48 hours! Yes we create custom commissioned pieces! All works can be ordered in a variety of sizes, and created in a style to suit you. For all custom design inquiries, please contact today!</p>
         <h3>Follow Me</h3>
         <ul className="icons">
           <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
@@ -93,5 +93,6 @@ const Contact = () => {
       </div>
     </section>
   );
-}
+};
+
 export default Contact;

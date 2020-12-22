@@ -1,72 +1,45 @@
 /* eslint-disable max-len */
-const Section = () => (
-  <section>
-    <div className="inner">
-      <header>
-        <h1>Enquire</h1>
-      </header>
-      <section className="columns double">
-        <div className="column">
-          <span className="image left special"><img src="images/event/thumbs/04.png" alt="" /></span>
-          <h3>Live Events</h3>
-          <p>
-            Enjoy the luxury of creating custom illustration of your guests live on the spot
-            as they mingle and sip champagne.
-            Live event illustration can be applied across a range of events, such as PR
-            and marketing campaigns, store openings, product launches, race days,
-            weddings and private parties.
-          </p>
-        </div>
-        <div className="column">
-          <span className="image left special"><img src="images/cakes/thumbs/06.png" alt="" /></span>
-          <h3>Cakes</h3>
-          <p>
-            Enquire about our cake illustrations for the very best in unique and
-            custom, handmade pieces bespoke for every order.
-          </p>
-        </div>
-        <div className="column">
-          <span className="image left special"><img src="images/digital/thumbs/02.png" alt="" /></span>
-          <h3>Digital</h3>
-          <p>
-            Order a timeless digitally drawn custom illustration. We will turn your idea or portrait into
-            a piece of art you can display in your own home or gift to a special person. Illustrations are
-            drawn using an iPad + Procreate. We will email the final illustration to your preferred email.
-            We then print your illustration on high quality paper, package professionally and ship to the
-            address provided upon purchase.
-          </p>
-        </div>
-        <div className="column">
-          <span className="image left special"><img src="images/watercolour/thumbs/01.png" alt="" /></span>
-          <h3>Watercolor</h3>
-          <p>
-            Watercolor pieces are hand drawn by yours truly. I use the highest quality paints to turn your ideas
-            into a piece of art. We will email the final illustration to your preferred email.
-            We then package professionally and ship to the address provided upon purchase.
-          </p>
-        </div>
-        <div className="column">
-          <span className="image left special"><img src="images/event/thumbs/02.png" alt="" /></span>
-          <h3>Event stationary</h3>
-          <p>
-            Event stationery can be an extension of your personalised style. Our goal is to produce creative
-            stationary designs that exhibit your special event in a way that reflects your personality. We do all
-            types of events from weddings, to birthdays, baby showers to corporate events. We will work with you to
-            design custom stationery that reflects your spirit, style and personality.
-          </p>
-        </div>
-        <div className="column">
-          <span className="image left special"><img src="images/announcement/thumbs/04.png" alt="" /></span>
-          <h3>Announcement cards</h3>
-          <p>
-            Whether you’ve welcomed a new baby to the world are due to be wed or your birthdays coming up, spread your
-            happy news with personalised announcement cards. We create illustrated designs and photo cards – all of which
-            is completely personalised by you.
-          </p>
-        </div>
-      </section>
-    </div>
-  </section>
-);
+import { memo } from 'react';
 
-export default Section;
+const propTypes = {};
+
+const Section = () => {
+  return (
+    <section className="about" id="contact">
+      <div className="social column">
+        <h3>About Me</h3>
+        <p>
+          Hello and welcome,
+          <br />
+          I am Christina the designer and artist behind everything Christina Stamos Designs.
+          <br />
+          I am an artist with a passion for design, and background in creative thinking. It is through innately understanding the creative process, that I then developed and created my own personal style through both hand painted watercolor and digital illustrations.
+          <br />
+          Before establishing Christina Stamos Designs,  I completed my studies, a Bachelor of Communications, and worked in Advertising. However, from a very young age I had a passion for art. I was always illustrating and I found it brought me a sense of tranquility and a laser like focus with pristine clarity. With this, naturally my skill set developed, and slowly my family and friends encouraged me to share my work.
+          <br />
+          I am so grateful and privileged to be able to call this work. Everyday I am able to work with so many amazing people and bring their visions, memories and dreams to life. My work can be used across various aspects of your event including stationary, live events, images for cakes and cookies and finally bespoke illustrations to fill your home.
+          <br />
+          I would love to hear from you and understand how we would be able to work together. Please follow the proceeds of the enquire page to get in contact.
+          <br />
+          Thank you and speak soon.
+          <br />
+          Lots of love,
+          Christina. x
+        </p>
+        <h3>Follow Me</h3>
+        <ul className="icons">
+          <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
+          <li><a href="#" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
+        </ul>
+      </div>
+
+      <div className="column">
+        <img className="image fit" src="images/AboutMe.jpg" alt="About Christina Stamos" />
+      </div>
+    </section>
+  );
+};
+
+Section.propTypes = propTypes;
+
+export default memo(Section);

@@ -7,13 +7,13 @@ const Gallery = () => (
       <header>
         <h1>Gallery</h1>
         <ul className="tabs">
-          <li><a href="#" data-tag="all" className="button active">All</a></li>
-          <li><a href="#" data-tag="watercolor" className="button">Watercolour</a></li>
-          <li><a href="#" data-tag="digital" className="button">Digital</a></li>
-          <li><a href="#" data-tag="cards" className="button">Announcement Cards</a></li>
-          <li><a href="#" data-tag="event" className="button">Event Stationary</a></li>
-          <li><a href="#" data-tag="live" className="button">Live</a></li>
-          <li><a href="#" data-tag="cakes" className="button">Cakes</a></li>
+          <li><a data-tag="all" className="button active">All</a></li>
+          <li><a data-tag="watercolor" className="button">Watercolour</a></li>
+          <li><a data-tag="digital" className="button">Digital</a></li>
+          <li><a data-tag="cards" className="button">Announcement Cards</a></li>
+          <li><a data-tag="event" className="button">Event Stationary</a></li>
+          <li><a data-tag="live" className="button">Live</a></li>
+          <li><a data-tag="cakes" className="button">Cakes</a></li>
         </ul>
       </header>
 

@@ -1,13 +1,20 @@
 import { memo } from 'react';
-
-const propTypes = {};
+import Nav from '../shared/Nav';
+import Header from '../shared/Header';
+import Footer from '../shared/Footer';
+import Contact from '../shared/Contact';
+import Section from './components/Section';
 
 const Enquire = () => (
-  <div>
-    Enquire page
+  <div className="page-wrap">
+    <Nav />
+    <section id="main">
+      <Header />
+      <Section />
+      <Contact />
+      <Footer />
+    </section>
   </div>
 );
-
-Enquire.propTypes = propTypes;
 
 export default memo(Enquire);

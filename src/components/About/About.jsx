@@ -2,7 +2,6 @@ import { memo } from 'react';
 import Nav from '../shared/Nav';
 import Header from '../shared/Header';
 import Footer from '../shared/Footer';
-import Contact from '../shared/Contact';
 import Section from './components/Section';
 
 const About = () => (
@@ -11,7 +10,6 @@ const About = () => (
     <section id="main">
       <Header />
       <Section />
-      <Contact />
       <Footer />
     </section>
   </div>
