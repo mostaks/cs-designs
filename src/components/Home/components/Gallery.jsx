@@ -7,7 +7,7 @@ const Gallery = () => (
       </header>
       <div className="content">
         <div className="media">
-          <a href="images/digital/full/07.jpg"><img src="images/digital/thumbs/07.png" /></a>
+          <a href="images/digital/full/08.jpg"><img src="images/digital/thumbs/08.png" /></a>
         </div>
         <div className="media">
           <a href="images/digital/full/01.jpg"><img src="images/digital/thumbs/01.png" /></a>

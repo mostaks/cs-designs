@@ -19,9 +19,9 @@ const Section = () => (
         </div>
         <div className="column">
           <span className="image left special"><img src="images/cakes/thumbs/06.png" alt="" /></span>
-          <h3>Cakes</h3>
+          <h3>Cakes & Cookies</h3>
           <p>
-            Enquire about our cake illustrations for the very best in unique and
+            Enquire about our cake and cookie illustrations for the very best in unique and
             custom, handmade pieces bespoke for every order.
           </p>
         </div>
