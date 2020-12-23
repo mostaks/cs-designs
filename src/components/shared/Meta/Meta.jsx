@@ -9,6 +9,9 @@ const Meta = () => (
 
     <link rel="shortcut icon" type="image/jpg" href="LOGO.png" />
     <title>Christina Stamos Designs</title>
+    <meta property="og:title" content="Christina Stamos Designs" key="title" />
+    <meta property="og:url" content="https://www.christinastamosdesigns.com.au" />
+    <meta property="og:description" content="Enquire about a custom illustration! Each piece created by Christina is one-of-a-kind and requires a custom quote based on specific requirements. We’ll be in touch with you within 24-48 hours! Yes we create custom commissioned pieces! All works can be ordered in a variety of sizes, and created in a style to suit you. For all custom design inquiries, please contact today!" />
 
     <script type="text/javascript" src="js/jquery.min.js" key="js-jquery" />
     <script type="text/javascript" src="js/jquery.poptrox.min.js" key="js-poptrox" />

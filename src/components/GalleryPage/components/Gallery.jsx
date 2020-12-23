@@ -1,4 +1,5 @@
 import galleryImages from '../constants';
+import shuffle from '../utils';
 /* eslint-disable jsx-a11y/alt-text */
 const Gallery = () => (
   <section id="galleries">
@@ -19,7 +20,9 @@ const Gallery = () => (
       </header>
 
       <div className="content">
-        {galleryImages.map(({ title, imageClass, full, thumbs }) => (
+        {shuffle(galleryImages).map(({
+          title, imageClass, full, thumbs,
+        }) => (
           <div key={`${imageClass}-${full}`} className={`media all ${imageClass}`}>
             <a href={`images/${imageClass}/full/${full}`}>
               <img

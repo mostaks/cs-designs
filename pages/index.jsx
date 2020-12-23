@@ -1,4 +1,3 @@
-
 import Home from '../src/components/Home';
 
 const home = () => (

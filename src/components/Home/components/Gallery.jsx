@@ -19,10 +19,10 @@ const Gallery = () => (
           <a href="images/cakes/full/07.jpg"><img src="images/cakes/thumbs/07.png" /></a>
         </div>
         <div className="media">
-          <a href="images/live/full/02.jpg"><img src="images/live/thumbs/02.png" /></a>
+          <a href="images/live/full/06.jpg"><img src="images/live/thumbs/06.png" /></a>
         </div>
         <div className="media">
-          <a href="images/announcement/full/02.jpg"><img src="images/announcement/thumbs/02.png" /></a>
+          <a href="images/announcement/full/05.jpg"><img src="images/announcement/thumbs/05.png" /></a>
         </div>
         <div className="media">
           <a href="images/live/full/02.jpg"><img src="images/live/thumbs/02.png" /></a>
