@@ -5,9 +5,10 @@ const Gallery = ({ media }) => (
     <div className="gallery">
       <header className="special">
         <h2>What&apos;s New</h2>
+        <span className="icon lg fa-instagram" />
       </header>
       <div className="content">
-        {media.length > 0 ? media.slice(0, 12).map(({ media_url }) => (
+        {media.length > 0 ? media.slice(0, 8).map(({ media_url }) => (
           <div className="insta-media" key={media_url}>
             <a href="https://www.instagram.com/christinastamosdesigns/" target="_blank" rel="noreferrer">
               <img src={media_url} />
