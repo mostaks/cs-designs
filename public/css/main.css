@@ -832,8 +832,8 @@
 
 			@media screen and (max-width: 736px) {
 
-				.gallery header {
-					display: block;
+				.gallery header.special {
+					justify-content: flex-start;
 				}
 
 			}
@@ -842,6 +842,11 @@
 
 				.gallery header h2 {
 					margin-bottom: .5em;
+				}
+
+				.gallery header.special .icon {
+					font-size: 2em;
+					margin: 0 6px;
 				}
 
 			}
