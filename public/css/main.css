@@ -900,6 +900,55 @@
 
 				}
 
+			.gallery .content .insta-media {
+				-moz-animation: gallery 0.75s ease-out 0.4s forwards;
+				-webkit-animation: gallery 0.75s ease-out 0.4s forwards;
+				-ms-animation: gallery 0.75s ease-out 0.4s forwards;
+				animation: gallery 0.75s ease-out 0.4s forwards;
+				margin-bottom: 0;
+				overflow: hidden;
+				opacity: 0;
+				position: relative;
+				width: 25%;
+			}
+
+				.gallery .content .insta-media a {
+					display: block;
+				}
+
+				.gallery .content .insta-media img {
+					-moz-transition: -moz-transform 0.2s ease-in-out;
+					-webkit-transition: -webkit-transform 0.2s ease-in-out;
+					-ms-transition: -ms-transform 0.2s ease-in-out;
+					transition: transform 0.2s ease-in-out;
+					max-width: 100%;
+					height: auto;
+					vertical-align: middle;
+				}
+
+				.gallery .content .insta-media:hover:hover img {
+					-moz-transform: scale(1.075);
+					-webkit-transform: scale(1.075);
+					-ms-transform: scale(1.075);
+					transform: scale(1.075);
+				}
+
+				@media screen and (max-width: 736px) {
+
+					.gallery .content .insta-media {
+						width: 50%;
+					}
+
+				}
+
+				@media screen and (max-width: 480px) {
+
+					.gallery .content .insta-media {
+						width: 100%;
+					}
+
+				}
+
 /* Icon */
 
 	.icon {
