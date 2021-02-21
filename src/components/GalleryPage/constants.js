@@ -24,7 +24,7 @@ const galleryImages = [
     thumbs: '08.png',
   },
   {
-    title: 'Watercolour portrait of friends',
+    title: 'Wedding portrait',
     imageClass: 'watercolour',
     full: '06.jpg',
     thumbs: '06.png',
@@ -96,10 +96,10 @@ const galleryImages = [
     thumbs: '08.png',
   },
   {
-    title: 'Christening seating board',
+    title: 'Bridal shower event card',
     imageClass: 'event',
     full: '07.jpg',
-    thumbs: '07.jpg',
+    thumbs: '07.png',
   },
   {
     title: 'Birthday cake illustration',
@@ -162,7 +162,7 @@ const galleryImages = [
     thumbs: '08.png',
   },
   {
-    title: 'Digital business logo',
+    title: 'Hens party welcome card',
     imageClass: 'digital',
     full: '03.jpg',
     thumbs: '03.png',
