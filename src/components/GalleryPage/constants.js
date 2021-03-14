@@ -74,12 +74,6 @@ const galleryImages = [
   {
     title: 'Bridal party announcement card',
     imageClass: 'announcement',
-    full: '04.jpg',
-    thumbs: '04.png',
-  },
-  {
-    title: 'Bridal party announcement card',
-    imageClass: 'announcement',
     full: '05.jpg',
     thumbs: '05.png',
   },
