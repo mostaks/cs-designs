@@ -11,15 +11,21 @@ const Home = () => {
 
   useEffect(() => {
     const fetchMedia = async () => {
-      const { data } = await axios.get(`
-        ${process.env.INSTA_API_URL}/me/media?
-        fields=id,media_type,media_url,username,timestamp&
-        access_token=${process.env.INSTA_ACCESS_TOKEN}
-      `);
+      try {
+        const { data } = await axios.get(`
+          ${process.env.INSTA_API_URL}/me/media?
+          fields=id,media_type,media_url,username,timestamp&
+          access_token=${process.env.INSTA_ACCESS_TOKEN}
+        `);
 
-      const mediaData = data?.data ?? [];
+        const mediaData = data?.data ?? [];
 
-      setMedia(mediaData);
+        setMedia(mediaData);
+        return mediaData;
+      } catch (err) {
+        // eslint-disable-next-line no-console
+        return err;
+      }
     };
 
     fetchMedia();
