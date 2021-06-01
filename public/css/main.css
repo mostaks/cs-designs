@@ -944,6 +944,18 @@
 					transition: transform 0.2s ease-in-out;
 					max-width: 100%;
 					height: auto;
+					max-height: 350px;
+					vertical-align: middle;
+				}
+
+				.gallery .content .insta-media video {
+					-moz-transition: -moz-transform 0.2s ease-in-out;
+					-webkit-transition: -webkit-transform 0.2s ease-in-out;
+					-ms-transition: -ms-transform 0.2s ease-in-out;
+					transition: transform 0.2s ease-in-out;
+					max-width: 100%;
+					height: auto;
+					max-height: 350px;
 					vertical-align: middle;
 				}
 
