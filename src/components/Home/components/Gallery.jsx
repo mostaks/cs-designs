@@ -9,18 +9,18 @@ const Gallery = ({ media }) => (
       </header>
       <div className="content">
         {media.length > 0 ? media.slice(0, 8).map((thing) => {
-          console.log('thing:', thing);
           const { media_url, time_stamp, media_type } = thing;
           // if (media_type === 'VIDEO') return null;
           return (
-          <div className="insta-media" key={media_url}>
-            <a href="https://www.instagram.com/christinastamosdesigns/" target="_blank" rel="noreferrer">
-              {media_type === 'VIDEO' ? (
-                <video className="min-img" src={media_url} alt={time_stamp} />
-              ) : <img className="min-img" src={media_url} alt={time_stamp} />}
-            </a>
-          </div>
-        )}) : (
+            <div className="insta-media" key={media_url}>
+              <a href="https://www.instagram.com/christinastamosdesigns/" target="_blank" rel="noreferrer">
+                {media_type === 'VIDEO' ? (
+                  <video className="min-img" src={media_url} alt={time_stamp}><track kind="captions" /></video>
+                ) : <img className="min-img" src={media_url} alt={time_stamp} />}
+              </a>
+            </div>
+          );
+        }) : (
           <>
             <div className="media">
               <a href="images/digital/full/08.jpg"><img src="images/digital/thumbs/08.png" /></a>

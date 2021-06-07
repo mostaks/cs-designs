@@ -39,7 +39,7 @@ const Section = () => (
       <h3>Follow Me</h3>
       <ul className="icons">
         <li><a href="https://www.facebook.com/Christina-Stamos-Designs-104979891044449" rel="noreferrer" target="_blank" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-        <li><a href="https://www.instagram.com/christinastamosdesigns/" rel="noreferrer" target="_blank" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
+        <li><a href="https://www.instagram.com/christinastamosdesigns/" rel="noreferrer" target="_blank" style={{ color: '#263133' }} className="icon fa-instagram"><span className="label">Instagram</span></a></li>
       </ul>
     </div>
     <div className="column">

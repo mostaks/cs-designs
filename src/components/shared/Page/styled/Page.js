@@ -3,7 +3,7 @@ import theme from '../../../../lib/theme';
 
 export const StyledPage = styled.div`
   background: white;
-  color: ${theme.pink};
+  color: ${theme.charcoal};
 `;
 
 export const Inner = styled.div`

@@ -3,6 +3,7 @@ const theme = {
   black: '#393939',
   grey: '#3A3A3A',
   lightgrey: '#E1E1E1',
+  charcoal: '#263133',
   offWhite: '#EDEDED',
   pink: '#E5BBCB',
   maxWidth: '1000px',

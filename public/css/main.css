@@ -139,7 +139,7 @@
 
 	a {
 		text-decoration: underline;
-		color: #19B5FE;
+		color: #263133;
 	}
 
 		a:hover {
@@ -557,7 +557,7 @@
 		-ms-appearance: none;
 		appearance: none;
 		border-radius: 4px;
-		border: solid 1px rgba(25, 181, 254, 0.25);
+		border: solid 1px rgba(38, 49, 51, 0.25);
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -1570,15 +1570,14 @@
 		height: 75vh;
 		position: relative;
 		background: #E5BBCB;
+		background-color: #9ab5e1;
 		background-image: url(../../images/cover/cover_photo_2.jpg);
 		background-size: cover;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: center 25%;
 		text-align: center;
 		color: #FFF;
-
-
 	}
 
 		#banner:before {
