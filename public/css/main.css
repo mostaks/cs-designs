@@ -883,6 +883,8 @@
 				opacity: 0;
 				position: relative;
 				width: 25%;
+				box-shadow: 2px 4px 11px 5px rgba(0,0,0,0.28);
+				border-radius: 4px;
 			}
 
 				.gallery .content .media a {

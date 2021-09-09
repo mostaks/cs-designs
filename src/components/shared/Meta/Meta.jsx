@@ -15,10 +15,7 @@ const Meta = () => (
 
     <script type="text/javascript" src="js/jquery.min.js" key="js-jquery" />
     <script type="text/javascript" src="js/jquery.scrolly.min.js" key="js-scrolly" />
-    <script type="text/javascript" src="js/skel.min.js" key="js-skel" />
-    <script type="text/javascript" src="js/jquery.poptrox.min.js" key="js-poptrox" />
     <script type="text/javascript" src="js/util.js" key="js-util" />
-    <script type="text/javascript" src="js/main.js" key="js-main" />
   </Head>
 );
 
