@@ -870,6 +870,7 @@
 			-webkit-justify-content: -webkit-flex-start;
 			-ms-justify-content: -ms-flex-start;
 			justify-content: flex-start;
+			gap: 16px;
 		}
 
 			.gallery .content .media {
@@ -1703,6 +1704,7 @@
 		background-position: left;
 		background-repeat: no-repeat;
 		background-size: cover;
+		margin-top: 40px;
 	}
 
 		#footer .copyright {

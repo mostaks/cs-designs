@@ -11,6 +11,7 @@
     "stylelint": "$(yarn bin)/stylelint src/**"
   },
   "dependencies": {
+    "@apollo/client": "^3.4.10",
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
     "@fortawesome/free-solid-svg-icons": "^5.13.1",
     "@fortawesome/react-fontawesome": "^0.1.11",
@@ -19,6 +20,7 @@
     "babel-plugin-styled-components": "^1.11.1",
     "dotenv": "^8.2.0",
     "emailjs-com": "^2.6.4",
+    "graphql": "^15.5.2",
     "html-webpack-inline-source-plugin": "^0.0.10",
     "html-webpack-plugin": "3.2.0",
     "intersection-observer": "^0.11.0",
@@ -26,6 +28,7 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^16.13.1",
+    "react-modal": "^3.14.3",
     "styled-components": "^5.1.1"
   },
   "devDependencies": {
