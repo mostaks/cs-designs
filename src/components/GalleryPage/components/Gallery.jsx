@@ -36,38 +36,7 @@ const ModalWrapper = styled.div`
   }
 `;
 
-const TABS = [
-  {
-    label: 'All',
-    tabClass: 'all',
-  },
-  {
-    label: 'Watercolour',
-    tabClass: 'watercolour',
-  },
-  {
-    label: 'Digital',
-    tabClass: 'digital',
-  },
-  {
-    label: 'Announcement Cards',
-    tabClass: 'announcement',
-  },
-  {
-    label: 'Event Stationary',
-    tabClass: 'event',
-  },
-  {
-    label: 'Live',
-    tabClass: 'live',
-  },
-  {
-    label: 'Cakes & Cookies',
-    tabClass: 'cakes',
-  },
-];
-
-const Gallery = ({ contentfulImages }) => {
+const Gallery = ({ contentfulImages, tabs }) => {
   const [images, setImages] = useState(contentfulImages);
   const [activeTab, setActiveTab] = useState('all');
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
@@ -109,7 +78,7 @@ const Gallery = ({ contentfulImages }) => {
         <header>
           <h1>Gallery</h1>
           <ul className="tabs">
-            {TABS.map(({ label, tabClass }) => (
+            {tabs.map(({ label, tabClass }) => (
               <li key={tabClass}>
                 <a
                   tabIndex={0}

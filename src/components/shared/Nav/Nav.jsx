@@ -11,6 +11,9 @@ const Nav = () => {
     <nav id="nav">
       {toggle ? (
         <ul>
+          <li>
+            <a href="#"><span className="icon fa-times" onClick={() => setToggle(false)} role="none" /></a>
+          </li>
           {routes.map(({ route, icon }) => (
             <li key={route}>
               {route === '/gallery' ? (
@@ -24,9 +27,6 @@ const Nav = () => {
               )}
             </li>
           ))}
-          <li>
-            <a href="#"><span className="icon fa-times" onClick={() => setToggle(false)} role="none" /></a>
-          </li>
         </ul>
       ) : (
         <ul>

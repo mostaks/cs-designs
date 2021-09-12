@@ -56,7 +56,7 @@ const Section = () => (
           </p>
         </div>
         <div className="column">
-          <span className="image left special"><img src="images/announcement/thumbs/04.png" alt="" /></span>
+          <span className="image left special"><img src="images/announcement/thumbs/05.png" alt="" /></span>
           <h3>Announcement cards</h3>
           <p>
             Whether you’ve welcomed a new baby to the world are due to be wed or your birthdays coming up, spread your

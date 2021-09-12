@@ -870,7 +870,8 @@
 			-webkit-justify-content: -webkit-flex-start;
 			-ms-justify-content: -ms-flex-start;
 			justify-content: flex-start;
-			gap: 16px;
+			gap: 32px;
+
 		}
 
 			.gallery .content .media {
@@ -882,8 +883,8 @@
 				overflow: hidden;
 				opacity: 0;
 				position: relative;
-				width: 25%;
-				box-shadow: 2px 4px 11px 5px rgba(0,0,0,0.28);
+				width: calc(25% - 32px);
+				box-shadow: 3px 3px 16px 4px rgba(0,0,0,0.24);
 				border-radius: 4px;
 			}
 

@@ -4,12 +4,15 @@ import Contact from '../shared/Contact';
 import Footer from '../shared/Footer';
 import Gallery from './components/Gallery';
 
-const GalleryPage = ({ images }) => (
+const GalleryPage = ({ galleryData }) => (
   <div className="page-wrap">
     <Nav />
     <section id="main">
       <Header />
-      <Gallery contentfulImages={images} />
+      <Gallery
+        contentfulImages={galleryData?.imagesCollection?.items}
+        tabs={galleryData?.tabsCollection?.items}
+      />
       <Contact />
       <Footer />
     </section>

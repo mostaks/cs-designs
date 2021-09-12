@@ -29,7 +29,7 @@ const Gallery = ({ media }) => (
               <a href="images/digital/full/01.jpg"><img src="images/digital/thumbs/01.png" /></a>
             </div>
             <div className="media">
-              <a href="images/cakes/full/04.jpg"><img src="images/cakes/thumbs/04.png" /></a>
+              <a href="images/cakes/full/08.jpg"><img src="images/cakes/thumbs/08.png" /></a>
             </div>
             <div className="media">
               <a href="images/cakes/full/07.jpg"><img src="images/cakes/thumbs/07.png" /></a>

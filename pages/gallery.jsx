@@ -23,6 +23,12 @@ const GET_GALLERY = gql`
             }
           }
         }
+        tabsCollection {
+          items {
+            tabClass
+            label
+          }
+        }
       }
     }
   }
@@ -36,7 +42,7 @@ const Page = () => {
       <Head>
         <meta property="og:title" content="Christina Stamos Designs gallery page" key="title" />
       </Head>
-      <GalleryPage images={data?.galleryCollection?.items?.[0]?.imagesCollection?.items} />
+      <GalleryPage galleryData={data?.galleryCollection?.items?.[0]} />
     </>
   );
 };
