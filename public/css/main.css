@@ -934,7 +934,7 @@
 				overflow: hidden;
 				opacity: 0;
 				position: relative;
-				width: 25%;
+				width: calc(25% - 32px);
 			}
 
 				.gallery .content .insta-media a {
