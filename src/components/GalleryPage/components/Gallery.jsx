@@ -14,10 +14,10 @@ const ModalWrapper = styled.div`
   padding: 8px;
 
   img {
-    width: 100%;
-    height: 100%;
     border: 1px solid beige;
     border-radius: 4px;
+    width: auto;
+    height: 100%;
   }
 
   .label-wrapper {
@@ -119,7 +119,6 @@ const Gallery = ({ contentfulImages, tabs }) => {
       >
         <ModalWrapper>
           <img
-            style={{ width: '100%', height: '100%' }}
             src={images[selectedImageIndex]?.full?.url}
             alt={images[selectedImageIndex]?.full?.title}
           />
