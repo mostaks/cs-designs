@@ -97,9 +97,9 @@ const Gallery = ({ contentfulImages, tabs }) => {
 
         <div className="content">
           {images.map(({
-            class: imageClass, full, thumb: thumbs,
+            class: imageClass, full, thumb: thumbs, title,
           }, index) => (
-            <div key={`${imageClass}-${full.title}`} className={`media all ${imageClass}`}>
+            <div key={`${imageClass}-${title}`} className={`media all ${imageClass}`}>
               <a href="#" onClick={(e) => handleViewImage(e, index)}>
                 <img
                   title={full.title}
