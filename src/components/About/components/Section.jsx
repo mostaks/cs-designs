@@ -23,7 +23,7 @@ const Section = () => (
         Before establishing Christina Stamos Designs,  I completed my studies, a Bachelor of Communications, and worked in Advertising. However, from a very young age I had a passion for art. I was always illustrating and I found it brought me a sense of tranquility and a laser like focus with pristine clarity. With this, naturally my skill set developed, and slowly my family and friends encouraged me to share my work.
         <br />
         <br />
-        I am so grateful and privileged to be able to call this work. Everyday I am able to work with so many amazing people and bring their visions, memories and dreams to life. My work can be used across various aspects of your event including stationary, live events, images for cakes and cookies and finally bespoke illustrations to fill your home.
+        I am so grateful and privileged to be able to call this work. Everyday I am able to work with so many amazing people and bring their visions, memories and dreams to life. My work can be used across various aspects of your event including stationery, live events, images for cakes and cookies and finally bespoke illustrations to fill your home.
         <br />
         <br />
         I would love to hear from you and understand how we would be able to work together. Please follow the proceeds of the enquire page to get in contact.

@@ -47,10 +47,10 @@ const Section = () => (
         </div>
         <div className="column">
           <span className="image left special"><img src="images/event/thumbs/02.png" alt="" /></span>
-          <h3>Event stationary</h3>
+          <h3>Event stationery</h3>
           <p>
             Event stationery can be an extension of your personalised style. Our goal is to produce creative
-            stationary designs that exhibit your special event in a way that reflects your personality. We do all
+            stationery designs that exhibit your special event in a way that reflects your personality. We do all
             types of events from weddings, to birthdays, baby showers to corporate events. We will work with you to
             design custom stationery that reflects your spirit, style and personality.
           </p>

@@ -66,7 +66,7 @@ const Contact = () => {
               <option value="watercolour">Watercolour</option>
               <option value="digital">Digital</option>
               <option value="cakes">Cake decoration</option>
-              <option value="stationary">Event stationary</option>
+              <option value="stationary">Event stationery</option>
               <option value="cards">Announcement cards</option>
             </select>
           </div>
